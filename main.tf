@@ -1,15 +1,3 @@
-provider "aws" {
-  region = var.aws_region
-}
-
-# Possible values for aws_region are:
-# us-east-1
-# us-west-1
-# us-west-2
-# eu-west-1
-# eu-central-1
-
-resource "aws_instance" "example" {
-  ami           = data.aws_ami.ubuntu.id
-  instance_type = var.instance_type
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:07979cfe914b2dce6c26763208ad93a32dad7182408c884409a2bbb426318741
+size 262

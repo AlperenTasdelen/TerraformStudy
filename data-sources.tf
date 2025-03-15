@@ -1,8 +1,3 @@
-data "aws_ami" "ubuntu" {
-  most_recent = true
-  owners      = ["099720109477"] # Canonical
-  filter {
-    name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d7c9455034582893a49e076adb5e0e7f4bd90dbd7ee2dd9e86a72d8fbba24bc
+size 202
